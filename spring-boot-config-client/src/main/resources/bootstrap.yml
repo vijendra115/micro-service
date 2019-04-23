@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: config-server-client
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL:http://localhost:8888}
+      username: configUser
+      password: configPassword
